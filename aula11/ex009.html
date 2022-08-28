@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condições</title>
+</head>
+<body>
+    <h1>Sistema de Multas</h1>
+
+    <p>Velocidade do carro: <input type="number" name="vcar" id="vcar"> Km/h <input type="button" value="Verificar" onclick="verific()"></p>
+
+    <div id="vel">Análise</div>
+
+    <script>
+        function verific() {
+            var velcar = window.document.querySelector('input#vcar')
+            var v = window.document.querySelector('div#vel')
+            var res = Number(velcar.value)
+            v.innerHTML = `<p> Sua velociadade é ${res} km/h.</p>` 
+            if (res > 60) {
+                v.innerHTML = `<p> Você foi <strong> Multado </strong>!</p> `
+            }else {
+                v.innerHTML = `<p> Utilize sempre o cinto de segurança!</p>`
+            }
+        }
+    </script>
+    
+</body>
+</html>
