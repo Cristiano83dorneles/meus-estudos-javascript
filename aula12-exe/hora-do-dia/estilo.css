@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(243, 194, 126);
+    background-color: rgb(231, 217, 158);
     display: block;
 }
 
@@ -18,13 +18,13 @@ header > h1 {
 }
 
 main {
-    border: 1px solid black;
-    width: 350px;
-    height: 250px;
+    width: 400px;
+    height: 320px;
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
     background-color: aliceblue;
+    box-shadow: 3px 3px 8px black;
 }
 
 main > h2 {
@@ -32,10 +32,13 @@ main > h2 {
     padding: 10px;
 }
 
+main > img {
+    margin-left: 70px;
+}
+
 footer {
     margin: auto;
     margin-top: 20px;
-    border: 1px solid black;
 }
 
 footer > p {
