@@ -18,8 +18,9 @@ header > h1 {
 }
 
 section {
+    display: block;
+    padding: 20px;
     width: 400px;
-    height: 320px;
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
@@ -27,21 +28,15 @@ section {
     box-shadow: 3px 3px 8px black;
 }
 
-#ano {
-    margin-left: 10px;
+section > p {
+    padding: 15px;
 }
 
-#idade {
-    text-align: left;
-    padding: 5px;
-    margin-top: 10px;
-    width: 80px;
+section > p > #iano {
+    width: 100px;
 }
 
-section > #sexo {
-    text-align: left;
-    padding: 10px;
-}
+
 
 #botao {
     margin: 20px 0px 0px 20px;

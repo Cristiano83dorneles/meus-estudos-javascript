@@ -14,23 +14,28 @@
     </header>    
         <section>
             <p>
-                <div id="ano">Ano de Nascimento: <input type="number" name="idade" id="idade" min="1900" max="2022" required placeholder="Digite Aqui"> </div>
-            </p>
+                Ano de Nascimento: 
+                <input type="number" name="iano" id="iano" max="2022" min="1900" required>
+            </p> 
             <p>
-                <div id="sexo">Sexo:
-                    <input type="radio" name="sex" id="sex" checked> <label for="mas">Masculino</label>
-                    <input type="radio" name="sex" id="sex"> <label for="fem">Feminino</label> </div>
-            </p>
+                Sexo: 
+                <input type="radio" name="genero" id="isexo" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="genero" id="isexo">
+                <label for="femi">Feminino</label>
+            </p>         
             <p>
-                <input id="botao" type="button" value="verificar"  onclick = "verificar()">
+                <input type="button" value="verificador" onclick="verificador()">
             </p>
+            <div id="resp">Preencha os dados acima para ver o resultado...
+            </div>
         </section>
 
-    <footer>
-        <p>&copy;Curso em Vídeo</p>
-    </footer>
+            <footer>
+                <p>&copy;Curso em Vídeo</p>
+            </footer>
 
-    <script src="script.js"></script>
+        <script src="script.js"></script>
     
 </body>
 </html>
