@@ -4,7 +4,7 @@ function verificador() {
     var data = new Date()
     var idata = data.getFullYear()
     var ano = window.document.getElementById('iano')
-    iano = Number(ano.value)
+    var iano = Number(ano.value)
     var ver = window.document.getElementById('resp')
     var calc = idata - iano
 
