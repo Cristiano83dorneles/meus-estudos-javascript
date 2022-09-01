@@ -35,11 +35,14 @@ section {
     width: 50px;
 }
 
-.tabela {
+select {
     border: 1px solid black;
-    width: 150px;
-    margin: 15px 0px 10px 120px;
+    width: 120px;
+    margin: 10px 0px 10px 110px;
+}
 
+option {
+    margin: 10px 0px 10px 10px
 }
 
 footer {
