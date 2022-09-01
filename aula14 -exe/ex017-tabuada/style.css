@@ -26,6 +26,22 @@ section {
     box-shadow : 3px 3px 10px rgba(0, 0, 0, 0.574);
 }
 
+#num {
+    padding: 10px;
+    text-align: center;
+}
+
+#inumero {
+    width: 50px;
+}
+
+.tabela {
+    border: 1px solid black;
+    width: 150px;
+    margin: 15px 0px 10px 120px;
+
+}
+
 footer {
     color: rgb(163, 179, 192);
     margin: auto;

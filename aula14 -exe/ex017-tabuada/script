@@ -1,0 +1,15 @@
+function gerador() {
+
+var numero = window.document.getElementById('inumero')
+inum = Number(numero.value)
+
+var resultado = window.document.getElementById('resultado')
+
+var c = inum
+var d = 0
+var res = 0
+ 
+while (d <= 10) {
+    resultado.innerHTML = `${c} x 1 = ${res*c}`
+}
+}

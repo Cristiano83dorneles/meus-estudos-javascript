@@ -1,0 +1,35 @@
+
+function contar() {
+
+    var inicio = window.document.getElementById('inicio')
+    var ini = Number(inicio.value)
+
+    var fim = window.document.getElementById('fim')
+    var ifim = Number(fim.value)
+
+    var passo = window.document.getElementById('passo')
+    var ipass = Number(passo.value)
+
+    var contando = window.document.getElementById('contando')
+
+        if (ini.length == 0 || ifim.length == 0 || ipass == 0) {
+            contando.innerHTML = `Impossível calcular!`
+            window.alert('[ERRO] Faltam dados...')
+        } 
+        else {
+            contando.innerHTML = 'Contando...: <br>'
+            }
+            if (ini < ifim) {
+                // contagem crescente
+                for(var c = ini; c < ifim; c += ipass) {
+                contando.innerHTML += `${c} \u{1F449}`
+            }
+        }
+            else {
+                //contagem decrescente
+                for(var c = ini; c > ifim; c -= ipass) {
+                    contando.innerHTML += `${c} \u{1F449}`
+                }
+            }
+            contando.innerHTML += `${c} \u{1F3C1}`        
+    }
