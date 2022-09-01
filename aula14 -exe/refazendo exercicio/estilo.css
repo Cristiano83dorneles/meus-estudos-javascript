@@ -45,12 +45,16 @@ p {
 
 select {
     margin: 20px;
-    margin-left: 50px;
+    margin-left: 120px;
 }
 
 #itab {
     border-radius: 5px;
-    width: 160px;
+    width: 130px;
+}
+
+option {
+    margin: 10px 0px 0px 15px;
 }
 
 footer{
