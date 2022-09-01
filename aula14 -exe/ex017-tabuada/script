@@ -1,5 +1,4 @@
 function tabuada() {
-
     let numero = document.getElementById('inumero')
     let resultado = document.getElementById('itab')
     if (numero.value == 0) {

@@ -1,0 +1,6 @@
+function adicionar() {
+    let numero = document.getElementById('inumero')
+    let tab = document.getElementById('itab')
+    tab.innerHTML = `${numero.value}`
+}
+ 
